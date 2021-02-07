@@ -1,0 +1,39 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "lib": ["dom", "dom.iterable", "esnext"],
+        "skipLibCheck": true,
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "strict": true,
+        "forceConsistentCasingInFileNames": true,
+        "module": "esnext",
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "noEmit": true,
+        "downlevelIteration": true,
+        "jsx": "react",
+        "baseUrl": ".",
+        "paths": {
+            "@assets": ["src/assets"],
+            "@assets/*": ["src/assets/*"],
+            "@lib": ["src/lib"],
+            "@lib/*": ["src/lib/*"],
+            "@components": ["src/components"],
+            "@components/*": ["src/components/*"],
+            "@containers": ["src/containers"],
+            "@containers/*": ["src/containers/*"],
+            "@i18n": ["src/i18n"],
+            "@i18n/*": ["src/i18n/*"],
+            "@stores": ["src/stores"],
+            "@stores/*": ["src/stores/*"],
+            "@models": ["src/models"],
+            "@models/*": ["src/models/*"],
+            "@styles": ["src/styles"],
+            "@styles/*": ["src/styles/*"]
+        },
+        "types": ["vite/client"]
+    },
+    "include": ["src"]
+}
